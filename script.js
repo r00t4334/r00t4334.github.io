@@ -63,7 +63,7 @@ const valueGenerator = (angleValue) => {
   for (let i of rotationValues) {
     //if the angleValue is between min and max then display it
     if (angleValue >= i.minDegree && angleValue <= i.maxDegree) {
-      finalValue.innerHTML = `<p>Kuveljic je danas <b>${i.value}</b></p>`;
+      finalValue.innerHTML = `<p>rezultat: <b>${i.value}</b></p>`;
       spinBtn.disabled = false;
       break;
     }
